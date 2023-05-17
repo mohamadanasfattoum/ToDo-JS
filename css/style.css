@@ -1,7 +1,76 @@
-body{
+/* body{
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     
     font-family: 'Shadows Into Light Two', cursive;
 
+}
+
+.todo-input {
+    width: 90%;
+    height: 40px;
+}
+
+.todo-button {
+    width: 36px;
+    height: 40px;
+    background-color: white;
+}
+
+.todo-title {
+    display: inline-block;
+    width: 86%;
+}
+
+.todo-item {
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.remove{
+    display: none;
+} */
+
+
+
+
+body {
+    font-family: 'Shadows Into Light Two', cursive;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.todo-input {
+    width: 90%;
+    height: 40px;
+}
+
+.todo-button {
+    width: 36px;
+    height: 40px;
+    background-color: white;
+}
+
+.todo-title {
+    display: inline-block;
+    width: 86%;
+}
+
+.todo-item {
+    border-bottom: 2px solid black;
+    margin: 10px -10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.remove{
+    display: none;
 }
